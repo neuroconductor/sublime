@@ -1,26 +1,26 @@
 Package: sublime
 Type: Package
-Title: Automatic Lesion Incidence Estimation and Detection using 
-    Multi-Modality Longitudinal Magnetic Resonance Images
+Title: Automatic Lesion Incidence Estimation and Detection using
+        Multi-Modality Longitudinal Magnetic Resonance Images
 Version: 1.3
 Date: 2016-09-29
-Authors@R: c(person(given = "Elizabeth M.", "Sweeney",  
-  email = "elizabethmargaretsweeney@gmail.com", role = c("aut", "cre")),
-  person(given = "John", "Muschelli",  
-  email = "muschellij2@gmail.com", role = c("aut"))
-  )
+Authors@R: c(person(given = "Elizabeth M.", "Sweeney", email =
+        "elizabethmargaretsweeney@gmail.com", role = c("aut", "cre")),
+        person(given = "John", "Muschelli", email =
+        "muschellij2@gmail.com", role = c("aut")) )
 Maintainer: Elizabeth M. Sweeney <elizabethmargaretsweeney@gmail.com>
-Description: Creates probability maps of incident and enlarging lesion voxels
-    from a baseline and followup magnetic resonance imaging study in 
-    patients with multiple sclerosis.
+Description: Creates probability maps of incident and enlarging lesion
+        voxels from a baseline and followup magnetic resonance imaging
+        study in patients with multiple sclerosis.
 License: GPL
 LazyData: true
-Depends:
-    oro.nifti
-Imports:
-    downloader,
-    graphics,
-    stats,
-    grDevices,
-    AnalyzeFMRI
+Depends: oro.nifti
+Imports: downloader, graphics, stats, grDevices, AnalyzeFMRI
 RoxygenNote: 5.0.1.9000
+Repository: Neuroconductor
+Suggests: 
+    covr,
+    testthat
+Remotes: 
+    neuroconductor/oro.nifti@bd06b05d2a090c743e51d745a826e8b77af278f0
+biocViews: 
